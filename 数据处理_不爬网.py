@@ -17,7 +17,7 @@ focused = ['红杉','高瓴','蓝驰','洪泰','正心谷','元禾重元','元�
 date = '20220221-0227'
 
 # Save path and output file names
-path = '/Users/shiqimeng/Desktop/周报' + os.sep + date
+path = '<path>' + os.sep + date
 
 fe = pd.read_excel(path + os.sep + '一周融资事件' + date + '.xls')  # 去头企查查导出
 
